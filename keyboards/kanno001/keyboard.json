@@ -8,7 +8,8 @@
         "bootmagic": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "encoder": true // エンコーダーの設定
     },
     "matrix_pins": {
         "cols": ["D0", "D1"],
@@ -19,6 +20,11 @@
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
+    },
+    "encoder": {
+        "rotary": [
+                { "pin_a": "B2", "pin_b": "B6", "resolution": 1 }
+        ]
     },
     "layouts": {
         "LAYOUT": {
